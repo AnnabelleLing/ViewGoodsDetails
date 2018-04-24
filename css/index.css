@@ -1,0 +1,35 @@
+.wraps {
+  position: relative;
+  margin: 100px 0 0 200px;
+}
+.wrap {
+  position:relative;
+  width:350px;
+  height:236px;
+  cursor: move;
+  overflow: hidden;
+}
+.block {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(0,0,0,0.6);
+}
+.detailwrap {
+  position:absolute;
+  left:354px;
+  top:0;
+  width:350px;
+  height:236px;
+  background:white;
+  overflow:hidden;
+}
+.detailwrap img {
+  position: relative;
+  z-index: -1;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
